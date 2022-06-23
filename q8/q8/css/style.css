@@ -1,2 +1,31 @@
 @charset "UTF-8";
+/* q8-1の回答 */
+.q81--background-img{
+  height: 500px;
+  background-image: url("../../image/coffee-background.jpg");
+}
 
+/* q8-2の回答 */
+.q82--background-img{
+  height: 500px;
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+}
+
+/* q8-3の回答 */
+.q83--background-img{
+  height: 500px;
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* q8-4の回答 */
+.q84--background-img{
+  height: 500px;
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
