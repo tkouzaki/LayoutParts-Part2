@@ -1,1 +1,32 @@
 @charset "UTF-8";
+/* q7の回答 */
+.speech--bubble{
+  width: 500px;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #fad296;
+  border: solid 5px #8f5a0a;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+  position: relative;
+}
+
+.speech--bubble::before {
+  content: "";
+  position: absolute;
+  border: 25px solid transparent;
+  border-top: 25px solid #8f5a0a;
+  top: 100%;
+  left: 4.7%;
+}
+
+.speech--bubble::after {
+  content: "";
+  position: absolute;
+  border: 18px solid transparent;
+  border-top: 18px solid #fad296;
+  top: 100%;
+  left: 6%;
+}
+
