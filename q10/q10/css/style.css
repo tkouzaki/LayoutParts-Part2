@@ -1,1 +1,100 @@
 @charset "UTF-8";
+/* q10-1の回答 */
+
+.button{
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 15px;
+  padding: 0 15px;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.button.q101--red{
+  color: #fff;
+  background-color: #fd0f0fd9;
+}
+
+.button.q101--blue{
+  color: #fff;
+  background-color: #170ffdd9;
+}
+  
+.button.q101--green{
+  color: #000;
+  background-color: #0ffd0fd9;
+}
+
+.outer-box{
+  text-align: center;
+}
+
+/* q10-2の回答 */
+.button.q102--red{
+  color: #fff;
+  background-color: #fd0f0fd9;
+  box-shadow: 0 5px rgba(63, 5, 5, 0.851);
+}
+
+.button.q102--blue{
+  color: #fff;
+  background-color: #170ffdd9;
+  box-shadow: 0 5px rgba(5, 13, 63, 0.851);
+}
+  
+.button.q102--green{
+  color: #000;
+  background-color: #0ffd0fd9;
+  box-shadow: 0 5px rgba(5, 63, 5, 0.851);
+}
+
+/* q10-3の回答 */
+.button.q102--red.click:active {
+  box-shadow: 0 0;
+  transform: translateY(5px);
+}
+
+.button.q102--blue.click:active {
+  box-shadow: 0 0;
+  transform: translateY(5px);
+}
+
+.button.q102--green.click:active {
+  box-shadow: 0 0;
+  transform: translateY(5px);
+}
+
+/* q10-4の回答 */
+.button.q104--leftBtn{
+  color: #67c5ff;
+  border: double 4px #67c5ff;
+  transition: 0.5s;
+}
+
+.button.q104--leftBtn:hover{
+  background-color: #fffbef;
+}
+
+.button.q104--centerBtn{
+  color: #67c5ff;
+  border: dotted 4px #67c5ff;
+  transition: 0.5s;
+}
+  
+.button.q104--centerBtn:hover{
+  border: dashed 4px #67c5ff;
+}
+
+.button.q104--rightBtn{
+  color: #0079a5f8;
+  border: dashed 4px #67c5ff;
+  background-color: #d0edfff8;
+  transition: 0.5s;
+}
+
+.button.q104--rightBtn:hover{
+  color: #67c5ff;
+  background-color: #ffffff;
+}
